@@ -1,0 +1,19 @@
+Resources:
+  
+  MyNewEC2Instance:
+  
+    Type: AWS::EC2::Instance
+  
+    Properties: 
+  
+      ImageId: ami-053b0d53c279acc90
+  
+      InstanceType: t2.micro
+  
+      SubnetId: subnet-01f07d8ea52ecb76e 
+  
+      SecurityGroupIds: 
+  
+        - sg-04113c7b5bcd6872e
+  
+      KeyName: terra1
